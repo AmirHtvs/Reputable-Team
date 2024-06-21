@@ -66,8 +66,13 @@ a:focus{
 
 .logo{
 	position: fixed;
-	top: 30px;
+	top: 5px;
 	left: 30px;
+}
+
+.logo img{
+	width: 100px;
+	height: 100px;
 }
 
 .logo h1{
@@ -84,6 +89,14 @@ a:focus{
 	font-size: 12px;
 	color: #fff;
 	letter-spacing: 0.08em;
+}
+
+.logo p span{
+	color: #e3c600;
+}
+
+.logo p:first-letter{
+	color: #e3c600;
 }
 
 /* .coming-text{
