@@ -71,8 +71,14 @@ a:focus{
 }
 
 .logo img{
-	width: 100px;
-	height: 100px;
+	width: 150px;
+	height: 150px;
+	opacity: 0;
+    transition: width 1s ease-in-out, opacity 1s ease-in-out;
+}
+
+body.loaded .logo img{
+	opacity: 1;
 }
 
 .logo h1{
@@ -91,14 +97,6 @@ a:focus{
 	letter-spacing: 0.08em;
 }
 
-.logo p span{
-	color: #e3c600;
-}
-
-.logo p:first-letter{
-	color: #e3c600;
-}
-
 /* .coming-text{
 	
 } */
@@ -106,6 +104,10 @@ a:focus{
 .coming-text p{
 	color: #fff;
 	font-size: 20px;
+}
+
+.coming-text p span{
+	color: #e3c600;
 }
 
 .coming-text h2{
